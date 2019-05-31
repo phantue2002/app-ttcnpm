@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Nuntius</string>
+    <string name="register">Đăng kí</string>
+    <string name="login">Đăng nhập</string>
+    <string name="Username">Tên đăng nhập</string>
+    <string name="Password">Mật khẩu</string>
+    <string name="confirmpassword">Xác nhận mật khẩu</string>
+    <string name="Register">Đăng kí</string>
+    <string name="ifdonthaveacc">Nếu không có tài khoản?</string>
+    <string name="title_activity_dashboard">dashboard</string>
+    <string name="agora_app_id">36c12847817642cc990298eb46d59431</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

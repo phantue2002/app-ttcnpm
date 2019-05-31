@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="5"
+    android:background="@drawable/hhhi">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:orientation="vertical"
+        android:weightSum="5">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.5"
+            android:text="@string/Username"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+        <EditText
+            android:id="@+id/edt_usernamelogin"
+            android:layout_width="257dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.5"
+            android:autofillHints="@string/Username"
+            android:background="@color/colorPrimary"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:textSize="18sp"
+            tools:ignore="LaberFor"
+            tools:targetApi="o" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.5"
+            android:text="@string/Password"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+        <EditText
+            android:id="@+id/edt_passwordlogin"
+            android:layout_width="253dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.5"
+            android:autofillHints="@string/Username"
+            android:background="@color/colorPrimary"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:textSize="18sp"
+            tools:targetApi="o" />
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:id="@+id/btn_loginlogin"
+            android:layout_width="136dp"
+            android:layout_height="28dp"
+            android:layout_gravity="center"
+            android:background="@drawable/background_button"
+            android:textColor="@color/colorPrimary"
+            android:layout_weight="1"
+            android:text="@string/login" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:weightSum="3">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="279dp"
+            android:layout_height="4dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="@string/ifdonthaveacc"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/btn_registerlogin"
+            android:layout_width="136dp"
+            android:layout_height="2dp"
+            android:layout_gravity="center"
+            android:background="@drawable/background_button"
+            android:textColor="@color/colorPrimary"
+            android:layout_weight="1"
+            android:text="@string/Register" />
+
+        <TextView
+            android:id="@+id/forgotpass"
+            android:layout_width="276dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.5"
+            android:text="Quên mật khẩu? Nhấn vào đây"
+            android:textAllCaps="false"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+    </LinearLayout>
+
+</LinearLayout>

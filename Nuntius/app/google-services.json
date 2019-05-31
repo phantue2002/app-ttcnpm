@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1067923820379",
+    "firebase_url": "https://nuntius-79c39.firebaseio.com",
+    "project_id": "nuntius-79c39",
+    "storage_bucket": "nuntius-79c39.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1067923820379:android:6ac4a8885baca2b5",
+        "android_client_info": {
+          "package_name": "com.ttcnpm.nuntius"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1067923820379-ed5e8bdblbcovm8hvh1t0v49l0pje640.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ttcnpm.nuntius",
+            "certificate_hash": "0692ea9880f3cb3a7f1ade4819066a58ab65fb79"
+          }
+        },
+        {
+          "client_id": "1067923820379-clfrhfps8p897347kqdpt60f6bv6tt44.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2_nVg8hXqvncDrZ_5o6xrtmeyCOaGvkY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1067923820379-clfrhfps8p897347kqdpt60f6bv6tt44.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

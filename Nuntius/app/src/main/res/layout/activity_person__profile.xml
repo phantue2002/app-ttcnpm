@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1EDED"
+    tools:context=".ProfileFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/personcoverIv"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:layout_alignParentLeft="false"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:background="@color/colorPrimaryDark"
+                android:scaleType="fitXY">
+
+
+            </ImageView>
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:layout_marginTop="130dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/personavatarIv"
+                    android:layout_width="140dp"
+                    android:layout_height="130dp"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginLeft="25dp"
+                    android:src="@drawable/ic_default_white"
+                    android:background="@color/colorAccent"
+                    android:padding="5dp" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/personnameTV"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:text="Tên"
+                        android:duplicateParentState="false"
+                        android:textSize="25sp" />
+
+                    <TextView
+                        android:id="@+id/personstatusTv"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:text="Trạng thái"
+                        android:duplicateParentState="false"
+                        android:textSize="20sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="393dp"
+                android:layout_marginTop="200dp"
+                android:orientation="vertical"
+                android:weightSum="20">
+
+                <TextView
+                    android:id="@+id/personemailTv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="70dp"
+                    android:layout_weight="3"
+                    android:duplicateParentState="false"
+                    android:text="Email"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/persongenderTv"
+                    android:layout_width="391dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_weight="3"
+                    android:duplicateParentState="false"
+                    android:text="Giới tính"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/personphoneTv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_weight="3"
+                    android:duplicateParentState="false"
+                    android:text="Số điện thoại"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/personcityTv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_weight="3"
+                    android:duplicateParentState="false"
+                    android:text="Thành phố"
+                    android:textSize="15sp" />
+
+
+                <Button
+                    android:id="@+id/btn_send_friend_request"
+                    android:layout_width="133dp"
+                    android:layout_height="44dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/background_button"
+                    android:text="Gửi lời mời kết bạn"
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold|italic" />
+
+
+                    <Button
+                        android:id="@+id/btn_decline_friend_request"
+                        android:layout_width="133dp"
+                        android:layout_height="46dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:textStyle="bold|italic"
+                        android:background="@drawable/background_button"
+                        android:text="Từ chối lời mời kết bạn"
+                        android:textColor="@color/colorPrimary" />
+
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+
+
+
+</RelativeLayout>
